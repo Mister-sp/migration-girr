@@ -1,0 +1,18 @@
+{
+  "name": "migration-girr",
+  "version": "1.0.0",
+  "description": "Outil de migration automatique des anciennes configs GIRR vers le nouveau format frontend.",
+  "main": "dist/cli.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "bin": {
+    "girr-migrate": "dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "typescript": "^5.0.0"
+  }
+}
